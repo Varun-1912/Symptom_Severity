@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  display: grid;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(6, 5, 30);
+  background-image: url(https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg?w=1060&t=st=1675932963~exp=1675933563~hmac=29372d3496d1c0560a91a32c8e280b9bd25271f7dc59dcd9536474f321952c2f);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 1600px 780px, 1600px 780px;
+  
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(204, 155, 233);
+  padding: 20px;;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(6, 5, 30);
+}
+
+.link-btn {
+  background: none;
+  color: rgb(133, 72, 22);
+  text-decoration: underline;
+}
